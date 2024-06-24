@@ -17,9 +17,6 @@ public class SportsradarFootballWorldcupscoreboardApplication {
 
 	private static void invokeApplicationService() {
 		ApplicatonService applicatonService = new ApplicatonService(new WorldCupBoardInterfaceImp());
-
-
-
 		try {
 			Game game1 = applicatonService.startGame(TeamList.MEXICO, TeamList.CANADA);
 			game1.setId(1L);

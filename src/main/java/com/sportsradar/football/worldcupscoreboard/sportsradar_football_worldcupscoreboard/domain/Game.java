@@ -6,6 +6,10 @@ import java.util.Objects;
 public class Game {
 
     private Long id;
+
+    public Game() {
+    }
+
     private Team home;
     private Team away;
     private Integer homeTeamScore;
